@@ -3,7 +3,8 @@
 
 1. [Introduction: Motivation & Rationale](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#1-introduction-motivation--rationale)
 2. [Objectives](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#2-objectives)
-3. [Work Samples](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#3-work-samples)
+3. [Work Samples](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#3-work-samples)  
+  3.1. [Dashboard Screenshot](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#3.1-dashboard-screenshot)  
 
 ## 1. Introduction: Motivation & Rationale  
 > The average person reads about **770 books in a lifetime**.  
@@ -32,7 +33,7 @@ This frighteningly small fraction of books at my disposal to be consumed galvani
 3. **Minimize the rate of incomplete reads** by ensuring each book delivers value and aligns with my reading goals and tastes.
 
 ## 3. Work Samples:
-### 3.1. Dashboard Screenshot.
+### 3.1. Dashboard Screenshot
 ![book analytics](https://github.com/user-attachments/assets/0cf23519-7662-42d4-98b1-e67fd6575730)
 
 
