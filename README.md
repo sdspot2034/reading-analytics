@@ -115,7 +115,7 @@ Data Source:
 - Personal records of reading activities through Aug'21 - Present.
 - This was maintained in a Google Sheets Workbook segregated into worksheets by year.
 - OAuth was used to allow data access from personal drive.
-- Collation of all worksheets into a single data source was performed with **M-Query** in Power Query Data Source Advanced Settings.
+- Collation of all worksheets into a single data outlet was achieved with **M-Query** in Power Query Data Source Advanced Settings.
 
 ## 5. Future Scope:
 1. Geographical analysis of author origins.
