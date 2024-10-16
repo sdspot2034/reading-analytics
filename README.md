@@ -4,8 +4,8 @@
 1. [Introduction: Motivation & Rationale](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#1-introduction-motivation--rationale)
 2. [Objectives](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#2-objectives)
 3. [Work Samples](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#3-work-samples)  
-  3.1. [Dashboard Screenshot](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#31-dashboard-screenshot)
-  3.2. [Key Insights](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#32-key-insights)
+  3.1. [Dashboard Screenshot](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#31-dashboard-screenshot)  
+  3.2. [Key Insights](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#32-key-insights)  
   3.3. [Detailed Analysis](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#33-detailed-analysis)
 4. [Future Scope](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-future-scope)
 
@@ -66,7 +66,7 @@ Graph-wise explanation of insights and value obtained. (Sequence: Top to bottom,
 - **Utility:** Sanity testing and data freshness
 
 #### 3.3.4. Bar and Line Chart - Avg Rating, Reading Time by Year of Publication
-![g3](https://github.com/user-attachments/assets/52e6d8df-644a-46da-9903-832139212fae)
+![g4](https://github.com/user-attachments/assets/df77099e-7b71-4021-835e-15404b983da4)
 - Bar chart shows average rating by publication year bucket.
   - Publication year of books has been broken into logical buckets of varying sizes.
   - Highest ratings were provided to books of the earliest epoch, showing a clear proclivity to the classics and antiques.
@@ -77,28 +77,27 @@ Graph-wise explanation of insights and value obtained. (Sequence: Top to bottom,
 - **Utility:** Highlights correlation between preferred time period of book and rating along with reading time.
 
 #### 3.3.5. Line Graph - Reading Time by Number of Pages
-![g3](https://github.com/user-attachments/assets/52e6d8df-644a-46da-9903-832139212fae)
+![g5](https://github.com/user-attachments/assets/1a57c3bd-8c10-4e70-ae77-96a12aea8cf5)
 - No clear correlation between length of book and reading time.
 - Reading speed is independent of volume of book.
 - **Utility:** Highlights relevance of reading time with respect to text density.
 
 #### 3.3.6. Line Chart - Average of Reading Time in days by Rating
-![g3](https://github.com/user-attachments/assets/52e6d8df-644a-46da-9903-832139212fae)
+![g6](https://github.com/user-attachments/assets/d9786e33-0c2c-4ba7-b4bc-581731518ff4)
 - Law of diminishing marginal returns observed.
 - Books with above average rating, but not in the most liked zone (> 4 star rating) show highest time in reading.
 - **Utility:** Early pre-emption of time-consuming books.
 
 #### 3.3.7. Scatter Plot - Reading Time v Rating: Correlation and Distribution
-![g3](https://github.com/user-attachments/assets/52e6d8df-644a-46da-9903-832139212fae)
+![g7](https://github.com/user-attachments/assets/b3823a0e-64da-44d8-a271-e5d536941ccc)
 - Scatter of data points across ratings.
 - Size of bubbles indicate number of pages in title.
 - Visual can be divided into 4 qudrants:
   1. < 3 and < 50: Books poorly-rated were either finished or abandoned post-haste
   2. < 3 and > 50: No book poorly-rated lasted long.
-  3. >= 3 and < 50 : Majority distribution of fast-finished books with ratings higher than 4.
-  4. >= 3 and > 50: Single book with average rating and very high length has skewed data outputs in average calculations. Most other books averagely rated were finished in due time. Rare few books took long.
-- **Utility:** Distribution plots help in debunking inaccurate insights caused due to outliers.
-
+  3. <span>>=</span> 3 and < 50 : Majority distribution of fast-finished books with ratings higher than 4.
+  4. <span>>=</span> 3 and > 50: Single book with average rating and very high length has skewed data outputs in average calculations. Most other books averagely rated were finished in due time. Rare few books took long.
+- **Utility:** Distribution plots help in debunking inaccurate insights in averages caused due to outliers.
 
 
 ## 4. Future Scope
