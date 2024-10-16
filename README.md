@@ -7,7 +7,19 @@
   3.1. [Dashboard Screenshot](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#31-dashboard-screenshot)  
   3.2. [Key Insights](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#32-key-insights)  
   3.3. [Detailed Analysis](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#33-detailed-analysis)
-4. [Future Scope](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-future-scope)
+4. [Data Souce and Connectivity](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-detailed-analysis)
+5. [Future Scope](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#5-future-scope)
+6. [Project Link](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#6-project-link)
+
+---
+**Key Focus:**  
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40" width="40">  
+PowerBI
+<br> <br>
+**Skill areas:**  
+`PowerBI` ; `Data Modelling` ; `Data Cleaning` ; `Data Wrangling` ; `EDA` ; `DAX Expressions` ; `Measures and Calculated Columns` ; `M-Query` ; `Power Query` ; `Data Aggregation`
+
+---
 
 ## 1. Introduction: Motivation & Rationale  
 > The average person reads approximately **770 books in a lifetime**.  
@@ -98,6 +110,16 @@ Graphical representations provide insights and the value derived from this analy
   4. <span>>=</span> 3 and > 50: A single book with an average rating and very high length skews data outputs in average calculations. Most other averagely rated books were finished in a timely manner, with only a few taking longer.
 - **Utility:** Distribution plots help debunk inaccurate insights in averages caused by outliers.
 
-## 4. Future Scope
+## 4. Data Source and Connectivity:
+Data Source: 
+- Personal records of reading activities through Aug'21 - Present.
+- This was maintained in a Google Sheets Workbook segregates into worksheets by year.
+- OAuth was used to allow data access from personal drive.
+- Appending of all worksheets into a single table was performed with **M-Query** in Power Query Data Source Advanced Settings.
+
+## 5. Future Scope:
 1. Geographical analysis of author origins.
 2. Integration of insights related to book genres and their likability.
+
+## 6. Project link:
+[PowerBI Published Link](https://app.powerbi.com/groups/me/reports/a640585b-4ab6-4e54-b411-fc9d4ea189d6/ReportSectionc7cb1c9a71a71512454b?redirectedFromSignup=1&experience=power-bi
