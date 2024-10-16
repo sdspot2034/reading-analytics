@@ -122,4 +122,4 @@ Data Source:
 2. Integration of insights related to book genres and their likability.
 
 ## 6. Project link:
-[PowerBI Published Link](https://app.powerbi.com/groups/me/reports/a640585b-4ab6-4e54-b411-fc9d4ea189d6/ReportSectionc7cb1c9a71a71512454b?redirectedFromSignup=1&experience=power-bi
+[PowerBI Published Link](https://app.powerbi.com/groups/me/reports/a640585b-4ab6-4e54-b411-fc9d4ea189d6/ReportSectionc7cb1c9a71a71512454b?redirectedFromSignup=1&experience=power-bi)
