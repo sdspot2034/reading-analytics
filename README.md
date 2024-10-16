@@ -10,96 +10,94 @@
 4. [Future Scope](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-future-scope)
 
 ## 1. Introduction: Motivation & Rationale  
-> The average person reads about **770 books in a lifetime**.  
+> The average person reads approximately **770 books in a lifetime**.  
 _Source: [Economic Times](https://www.economist.com/graphic-detail/2023/12/22/how-many-books-will-you-read-before-you-die)_
 
 <br>
 
-> There are roughly **129 million** books in the world.  
+> There are roughly **129 million** books in existence.  
 _Source: [Google Survey](https://booksearch.blogspot.com/2010/08/books-of-world-stand-up-and-be-counted.html)_
 
 <br>
-Therefore, an average person would only get to experience:
+Thus, the average individual has the opportunity to experience:
 <br> <br>
 
 ```math
 Percentage\ of\ books = (770 * 100) / 129,864,880
 ```
 ```math
-= 0.00059292396\ \%
+= 0.00059292396 \ \%
 ```
 <br> <br>
-This frighteningly small fraction of books at my disposal to be consumed galvanized me into analysing my reading patterns.  
+This alarmingly small fraction of accessible literature compelled me to analyze my reading patterns.  
 ## 2. Objectives:
-1. **Optimize book selection** to ensure choices align closely with personal interests and preferences.
-2. **Enhance time management** by focusing on high-potential books and discontinuing unproductive reads at the right moment.
-3. **Minimize the rate of incomplete reads** by ensuring each book delivers value and aligns with my reading goals and tastes.
+1. **Optimize book selection** to ensure that choices closely align with personal interests and preferences.
+2. **Enhance time management** by concentrating on high-potential books and discontinuing unproductive reads at the appropriate moment.
+3. **Minimize the rate of incomplete reads** by ensuring that each book delivers value and aligns with my reading goals and tastes.
 
 ## 3. Work Samples:
 ### 3.1. Dashboard Screenshot
 ![book analytics high rez](https://github.com/user-attachments/assets/fbc0af80-d229-4130-ba17-f18b6ecd5022)
 
-
 ### 3.2. Key Insights
-- Books with average rating consume maximum amount of time.
-- Books written in the earlier periods are rated higher and take fastest amount of time to complete.
-- No clear pattern between length of book and amount of time taken indicates the reading speed is **not correlated to text volume** and is only a **direct and sole function of preference**
-- Highly preferred books on average take the least amount of time. While highly disliked books show potential to be concluded/shelved sooner.
+- Books with average ratings consume the maximum amount of time.
+- Books published in earlier periods receive higher ratings and are completed more quickly.
+- There is no discernible pattern between the length of a book and the time taken to read it, indicating that reading speed is **not correlated to text volume** and is solely a **function of personal preference**.
+- Highly preferred books, on average, take the least time to complete, while books that are less favored tend to be abandoned or shelved sooner.
 
 ### 3.3. Detailed Analysis
-Graph-wise explanation of insights and value obtained. (Sequence: Top to bottom, then left to right)
+Graphical representations provide insights and the value derived from this analysis. (Sequence: Top to bottom, then left to right)
 #### 3.3.1. Bar Chart - Count of Titles Read by Date
 ![g1](https://github.com/user-attachments/assets/34c7b60f-f4b7-4e0c-9fe9-978a3c731efe)
-- A simple graph depicting trend of completed books by year.
-- A bar chart was chosen so as to increase clarity in differences.
-- **Utility:** Boosts drive to beat previous year's count.
+- A straightforward graph depicting the trend of completed books by year.
+- A bar chart was selected to enhance clarity in the differences.
+- **Utility:** Increases motivation to surpass the previous year's count.
 
 #### 3.3.2. Gauge - Count of DNF's by Year
 ![g2](https://github.com/user-attachments/assets/cfd651a1-0e39-41a1-9631-31789fda2845)
-- A gauge chart showing count of books abandoned.
-- Higher abandonment rates indicate unsuitable selection of books and need for optimisation.
-- **Utility**: Keeping target value of DNF in check and ensure compliance.
+- A gauge chart displaying the number of abandoned books.
+- Higher abandonment rates indicate unsuitable book selections and the need for optimization.
+- **Utility**: Helps maintain target DNF levels in check to ensure compliance.
 
 #### 3.3.3. Cards - Currently Reading & Last Read
 ![g3](https://github.com/user-attachments/assets/52e6d8df-644a-46da-9903-832139212fae)
-- Cards showing latest book in progress and last completed book.
-- **Utility:** Sanity testing and data freshness
+- Cards displaying the most recent book in progress and the last completed book.
+- **Utility:** Ensures data freshness and aids in sanity checks.
 
 #### 3.3.4. Bar and Line Chart - Avg Rating, Reading Time by Year of Publication
 ![g4](https://github.com/user-attachments/assets/df77099e-7b71-4021-835e-15404b983da4)
-- Bar chart shows average rating by publication year bucket.
-  - Publication year of books has been broken into logical buckets of varying sizes.
-  - Highest ratings were provided to books of the earliest epoch, showing a clear proclivity to the classics and antiques.
-- Line chart shows average reading time by publication year bucket.
-  - Superposition of line chart over bar graph reveals correlations between the two metrics.
-  - Books written in the earliest eras have been read the fastest.
-- Dual axis ensures clarity in correlation and consistent range of the visual.
-- **Utility:** Highlights correlation between preferred time period of book and rating along with reading time.
+- The bar chart illustrates the average rating by publication year bucket.
+  - Publication years have been categorized into logical buckets of varying sizes.
+  - The highest ratings are attributed to books from the earliest eras, demonstrating a clear preference for classics and antiquities.
+- The line chart depicts average reading time by publication year bucket.
+  - The overlay of the line chart on the bar graph reveals correlations between the two metrics.
+  - Books from earlier periods are read the fastest.
+- The dual-axis design ensures clarity in correlation and consistency in the visual range.
+- **Utility:** Highlights the relationship between the preferred publication period, rating, and reading time.
 
 #### 3.3.5. Line Graph - Reading Time by Number of Pages
 ![g5](https://github.com/user-attachments/assets/1a57c3bd-8c10-4e70-ae77-96a12aea8cf5)
-- No clear correlation between length of book and reading time.
-- Reading speed is independent of volume of book.
-- **Utility:** Highlights relevance of reading time with respect to text density.
+- No clear correlation exists between book length and reading time.
+- Reading speed is independent of book volume.
+- **Utility:** Emphasizes the relevance of reading time concerning text density.
 
-#### 3.3.6. Line Chart - Average of Reading Time in days by Rating
+#### 3.3.6. Line Chart - Average Reading Time in Days by Rating
 ![g6](https://github.com/user-attachments/assets/d9786e33-0c2c-4ba7-b4bc-581731518ff4)
-- Law of diminishing marginal returns observed.
-- Books with above average rating, but not in the most liked zone (> 4 star rating) show highest time in reading.
-- **Utility:** Early pre-emption of time-consuming books.
+- The law of diminishing marginal returns is observed.
+- Books with above-average ratings, but not in the highest preferred zone (> 4-star rating), exhibit the longest reading times.
+- **Utility:** Enables early identification of time-consuming books.
 
-#### 3.3.7. Scatter Plot - Reading Time v Rating: Correlation and Distribution
+#### 3.3.7. Scatter Plot - Reading Time vs. Rating: Correlation and Distribution
 ![g7](https://github.com/user-attachments/assets/b3823a0e-64da-44d8-a271-e5d536941ccc)
-- Scatter of data points across ratings.
-- Size of bubbles indicate number of pages in title.
-- Visual can be divided into 4 qudrants:
-  1. < 3 and < 50: Books poorly-rated were either finished or abandoned post-haste
-  2. < 3 and > 50: No book poorly-rated lasted long.
-  3. <span>>=</span> 3 and < 50 : Majority distribution of fast-finished books with ratings higher than 4.
-  4. <span>>=</span> 3 and > 50: Single book with average rating and very high length has skewed data outputs in average calculations. Most other books averagely rated were finished in due time. Rare few books took long.
-- **Utility:** Distribution plots help in debunking inaccurate insights in averages caused due to outliers.
-
+- Scatter plot displaying data points across ratings.
+- The size of the bubbles indicates the number of pages in each title.
+- The visual can be divided into four quadrants:
+  1. < 3 and < 50: Poorly rated books are either finished or abandoned quickly.
+  2. < 3 and > 50: No poorly rated books lasted long.
+  3. <span>>=</span> 3 and < 50: Majority distribution of quickly finished books with ratings exceeding 4.
+  4. <span>>=</span> 3 and > 50: A single book with an average rating and very high length skews data outputs in average calculations. Most other averagely rated books were finished in a timely manner, with only a few taking longer.
+- **Utility:** Distribution plots help debunk inaccurate insights in averages caused by outliers.
 
 ## 4. Future Scope
-1. Geographical view of Author origin.
-2. Incorporation of insights into genres of books and likeability.
+1. Geographical analysis of author origins.
+2. Integration of insights related to book genres and their likability.
