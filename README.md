@@ -1,8 +1,9 @@
 # Portfolio Project #1 : Reading Analytics  
 ## Table of Contents
-1. [Introduction: Motivation & Rationale](https://github.com/sdspot2034/reading-analytics/edit/main/README.md#1-introduction-motivation--rationale)
-2. [Objectives](https://github.com/sdspot2034/reading-analytics/edit/main/README.md#2-objectives)
-3. [Work Samples](https://github.com/sdspot2034/reading-analytics/edit/main/README.md#3-work-samples)
+
+1. [Introduction: Motivation & Rationale](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#1-introduction-motivation--rationale)
+2. [Objectives](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#2-objectives)
+3. [Work Samples](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#3-work-samples)
 
 ## 1. Introduction: Motivation & Rationale  
 > The average person reads about **770 books in a lifetime**.  
