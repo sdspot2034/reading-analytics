@@ -7,7 +7,7 @@
   3.1. [Dashboard Screenshot](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#31-dashboard-screenshot)  
   3.2. [Key Insights](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#32-key-insights)  
   3.3. [Detailed Analysis](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#33-detailed-analysis)
-4. [Data Souce and Connectivity](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-detailed-analysis)
+4. [Data Souce and Connectivity](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#4-data-source-and-connectivity)
 5. [Future Scope](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#5-future-scope)
 6. [Project Link](https://github.com/sdspot2034/reading-analytics/blob/main/README.md#6-project-link)
 
